@@ -132,7 +132,7 @@ body {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(30px);
   }
 
   100% {
@@ -150,8 +150,6 @@ body {
   border-radius: 100px;
   transition: all .2s;
   position: relative;
-  
-  animation: moveInBottom 1s ease-out;
 }
 
 .btn:hover {
@@ -167,6 +165,11 @@ body {
 .btn-white {
   background-color: #fff;
   color: #777;
+}
+
+.btn-animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
 }
 
 .btn::after {
