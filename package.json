@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adithwip/css-animation-practice/issues"
   },
-  "homepage": "https://github.com/adithwip/css-animation-practice#readme"
+  "homepage": "https://github.com/adithwip/css-animation-practice#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
 }
